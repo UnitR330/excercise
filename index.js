@@ -1,27 +1,31 @@
 
 MAIN INDEX AGENDA
 
-// 1. Kintamieji - kur laikoma informacija
-// 2. Palyginimas / salygos - "jei ...., priesingu atveju ..."
-// 3. Ciklai - kartojimai...
-// 4. Funkcijos - loginiu zingsniu visuma, kuria galima atkartoti, kai reikia
-// 5. Ivykiai - kai vartotojas: paspaudzia mygtuka...
+// 1. Variables  - consist of information 
+// 2. Comparisons /  - "if ...., otherwise ..."
+// 3. Cycles - repeating...
+// 4. Functions - логически поэтапное целое, которое можно повторить при необходимости
+// 5. Event - when the user: presses the button...
 
 
 /*
-    1. Kintamieji - kur laikoma informacija
-    2. Palyginimas / salygos - "jei ...., priesingu atveju ..."
-    3. Ciklai - kartojimai...
-    4. Funkcijos - loginiu zingsniu visuma, kuria galima atkartoti, kai reikia
-    5. Ivykiai - kai vartotojas: paspaudzia mygtuka...
+    1. Переменные - где содержится информация
+    2. Сравнение / условия - "если ...., в противном случает ..."
+    3. Циклы - повторения...
+    4. Функции - логически поэтапное целое, которое можно повторить при необходимости
+    5. Cобытия - когда пользователь: нажал на клавишу...
 */
 
 
 // Single line comment
+// Однострочный комментарий
 
 /* 
-    Multi
-    line
+    Multiline
     comment
 */
 
+/*
+    Многострочный
+    комментарий
+*/
