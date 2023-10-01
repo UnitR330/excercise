@@ -4,13 +4,22 @@
   "description": "Programming practice",
   "main": "index.js",
   "scripts": {
+    "object": "nodemon ./variables/object.js",
+    "array": "nodemon ./variables/array.js",
+    "boolean": "nodemon ./variables/boolean.js",
+    "string": "nodemon ./variables/string.js",
+    "number": "nodemon ./variables/number.js",
+    "function": "nodemon ./funkctons/function.js",
+    "cycle": "nodemon ./cycles/cycle.js",
+    "if": "nodemon ./matches/if.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "My",
-    "programming",
-    "practice"
+    "My programming practice"
   ],
   "author": "UnitR330",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "nodemon": "^3.0.1"
+  }
 }

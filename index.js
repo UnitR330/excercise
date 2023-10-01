@@ -1,5 +1,5 @@
 
-MAIN INDEX AGENDA
+// MAIN INDEX AGENDA
 
 // 1. Variables  - consist of information 
 // 2. Comparisons /  - "if ...., otherwise ..."
@@ -27,5 +27,5 @@ MAIN INDEX AGENDA
 
 /*
     Многострочный
-    комментарий
+    комментарийno
 */
