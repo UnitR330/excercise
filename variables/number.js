@@ -16,7 +16,7 @@ Matematiniai operatoriai:
 +=, -=, *=, /=, **=, %=
 ++, --
 
-*/
+
 
 
 const amzius = 99;
@@ -203,7 +203,7 @@ console.log(a, b);
 /*
 let klausimas = 10;
 console.log(++klausimas);
-*/
+
 
 
 function setAlarm(employed, vacation) {
@@ -263,3 +263,52 @@ console.log(date1 <= date2); // true - одинаковое число милл�
   };
   
   developer.say();
+
+  */
+/*
+  function howManySmaller(arr,n){
+    let a = ([1.234,1.235,1.228],1.24);
+    let b = parseFloat(a);
+      console.log(b);
+    }
+*/
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+function howManySmaller(arr, n) {
+ 
+  let roundedArr = arr.map(element => Number(element.toFixed(2)));
+
+   
+  let count = 0;
+  for (let i = 0; i < roundedArr.length; i++) {
+    if (roundedArr[i] < n) {
+      count++;
+    }
+  }
+
+  return count;
+}
+
+console.log(howManySmaller([1.234, 1.235, 1.228], 1.24));   
+console.log(howManySmaller([1.1888, 1.1868, 1.1838], 1.19));  
+console.log(howManySmaller([3.1288, 3.1212, 3.1205], 3.1212));
+ 
+
+function animal(obj){
+  let objAnimal= {name:"dog", legs:4,color:"white"}
+  return `This ${obj.color} ${obj.name} has ${obj.legs} legs.`;
+
+}
+
+console.log(animal(obj));
+
+
+
+
