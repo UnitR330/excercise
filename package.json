@@ -9,7 +9,8 @@
     "boolean": "nodemon ./variables/boolean.js",
     "string": "nodemon ./variables/string.js",
     "number": "nodemon ./variables/number.js",
-    "function": "nodemon ./funkctons/function.js",
+    "function": "nodemon ./functions/function.js",
+    "testee": "nodemon ./functions/testee.js",
     "cycle": "nodemon ./cycles/cycle.js",
     "if": "nodemon ./matches/if.js",
     "test": "echo \"Error: no test specified\" && exit 1"
