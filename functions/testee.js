@@ -1,7 +1,33 @@
 console.clear();
+/*
+function excludingVatPrice(priceWithVat) {
+  if (priceWithVat === null) {
+    return -1;
+  }
+  const vatRate = 0.15;
+  const originalPrice = priceWithVat / (1 + vatRate);  
+  const roundedPrice = Math.round(originalPrice * 100) / 100;
+  return roundedPrice;
+}
+console.log(excludingVatPrice(230.00)); 
+console.log(excludingVatPrice(150.00)); 
+console.log(excludingVatPrice(null));   
+*/
 
+function excludingVatPrice(pricewithVat){
+  if (pricewithVat === null) {
+  return -1;
+  }
+  const vatRate = 0.15;
+  const originalPrice = pricewithVat / (1 + vatRate);
+  // const roundedPrice = originalPrice.toFixed(2);
+  return Math.round(originalPrice);
+}
+console.log(excludingVatPrice(230));
+console.log(excludingVatPrice(150.00)); 
+console.log(excludingVatPrice(null));   
 
- 
+ /*
  
 function oddEven(n){
     return n%2 == 1 ? "odd number" : "even number";
@@ -126,7 +152,7 @@ function showMessage(from, text) {
 showMessage("Маша", "Привет!"); // Маша: Привет!
 showMessage("Маша"); //
 
- */
+
 
 var total = 0, count = 1;
 while (count <= 6) {
@@ -134,5 +160,5 @@ while (count <= 6) {
   count += 1;
 }
 console.log(total);
-
+*/
 
