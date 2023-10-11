@@ -12,8 +12,32 @@ function excludingVatPrice(priceWithVat) {
 console.log(excludingVatPrice(230.00)); 
 console.log(excludingVatPrice(150.00)); 
 console.log(excludingVatPrice(null));   
+
+excludingVatPrice = p => p === null ? -1 : +(p / 1.15).toFixed(2);
+
+/*
+function excludingVatPrice(price) {
+  return (price == null) ? -1 : Math.round((price / 1.15) * 100) / 100;
+}
+
+const excludingVatPrice = price =>
+  price === null ? -1 : Math.round(price / 1.15 * 10**2) / 10**2;
+
+function excludingVatPrice(price){
+  if (price === null) return -1
+  return +((price / 1.15).toFixed(2));
+}  
 */
 
+const excludingVatPrice = price => price !== null ? (price / 1.15).toFixed(2) * 100 / 100 : -1;
+
+// Test cases
+console.log(excludingVatPrice(230.00)); // Output: 200.00
+console.log(excludingVatPrice(150.00)); // Output: 130.43
+console.log(excludingVatPrice(null));   // Output: -1
+
+
+/*
 function excludingVatPrice(pricewithVat){
   if (pricewithVat === null) {
   return -1;

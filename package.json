@@ -12,6 +12,8 @@
     "function": "nodemon ./functions/function.js",
     "testee": "nodemon ./functions/testee.js",
     "cycle": "nodemon ./cycles/cycle.js",
+    "fr1": "nodemon ./fridaychallenge/fr1.js",
+    "fr2": "nodemon ./fridaychallenge/fr2.js",
     "if": "nodemon ./matches/if.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
