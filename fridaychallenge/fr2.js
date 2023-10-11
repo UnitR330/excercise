@@ -1,27 +1,27 @@
-// Duomenys
-const saskaita1 = 275;
-const saskaitosVerte1 = saskaita1 >= 50 && saskaita1 <= 300 ? 0.15 : 0.2;
-const arbatpinigiai1 = saskaita1 * saskaitosVerte1;
-const galutineVerte1 = saskaita1 + arbatpinigiai1;
+// 1 First
+const account1 = 275;
+const accountValue1 = account1 >= 50 && account1 <= 300 ? 0.15 : 0.2;
+const tips1 = account1 * accountValue1;
+const totalValue1 = account1 + tips1;
 
-// Eilutės spausdinimas
-const eilute1 = `Sąskaita buvo ${saskaita1}, arbatpinigiai ${arbatpinigiai1}, o bendra vertė ${galutineVerte1}`;
-console.log(eilute1);
+// Display
+const row1 = `Account has ${account1}, tips ${tips1}, total sum ${totalValue1}`;
+console.log(row1);
 
-// Kitas bandymas
-const saskaita2 = 40;
-const saskaitosVerte2 = saskaita2 >= 50 && saskaita2 <= 300 ? 0.15 : 0.2;
-const arbatpinigiai2 = saskaita2 * saskaitosVerte2;
-const galutineVerte2 = saskaita2 + arbatpinigiai2;
+// 2 Second
+const account2 = 40;
+const accountValue2 = account2 >= 50 && account2 <= 300 ? 0.15 : 0.2;
+const tips2 = account2 * accountValue2;
+const totalValue2 = account2 + tips2;
 
-const eilute2 = `Sąskaita buvo ${saskaita2}, arbatpinigiai ${arbatpinigiai2}, o bendra vertė ${galutineVerte2}`;
-console.log(eilute2);
+const row2 = `Account has ${account2}, tips ${tips2}, total sum ${totalValue2}`;
+console.log(row2);
 
-// Dar vienas bandymas
-const saskaita3 = 430;
-const saskaitosVerte3 = saskaita3 >= 50 && saskaita3 <= 300 ? 0.15 : 0.2;
-const arbatpinigiai3 = saskaita3 * saskaitosVerte3;
-const galutineVerte3 = saskaita3 + arbatpinigiai3;
+// 3 Third
+const account3 = 430;
+const accountValue3 = account3 >= 50 && account3 <= 300 ? 0.15 : 0.2;
+const tips3 = account3 * accountValue3;
+const totalValue3 = account3 + tips3;
 
-const eilute3 = `Sąskaita buvo ${saskaita3}, arbatpinigiai ${arbatpinigiai3}, o bendra vertė ${galutineVerte3}`;
-console.log(eilute3);
+const row3 = `Account has ${account3}, tips ${tips3}, total sum ${totalValue3}`;
+console.log(row3);
