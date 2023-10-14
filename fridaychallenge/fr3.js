@@ -203,8 +203,30 @@ console.log(`Average: ${average}`);
 
 // 8
 
-const e3 = 
-const e4 = 
+const e3 = 'Kylie';
+const e4 = 'Minogue';
+
+const monogram = e3.slice(-5, -4) + e4.slice(-7, -6);
+console.log(monogram);
+
+// 9
+function rand(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min + 1) + min);
+}
+
+const j1 = rand(97, 122);
+const j2 = rand(97, 122);
+const j3 = rand(97, 122);
+
+console.log(String.fromCharCode(j1, j2, j3));
+
+// const randomString = String.fromCharCode();
+
+// console.log(randomString)
+
+
 
 /*
 function rand(min, max) {
