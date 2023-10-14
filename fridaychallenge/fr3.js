@@ -119,8 +119,8 @@ console.log(`f 4: ${f4}`);
 console.log(`Count of 0: ${count0}`);
 console.log(`Count of 1: ${count1}`);
 console.log(`Count of 2: ${count2}`);
-*/
-// 5 **
+
+
 
 function rand(min, max) {
     min = Math.ceil(min);
@@ -167,10 +167,44 @@ console.log(`Count of Twos: ${countTwo}`);
 // 6
 
 
+function rand(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min + 1) + min);
+}
+
+const c1 = rand(0, 4);
+const c2 = rand(0, 4);
+
+const output = c1 > c2 ? (c1 / c2).toFixed(2) : (c2 / c1).toFixed(2);
+
+console.log(`Const 1: ${c1}`);
+console.log(`Const 2: ${c2}`);
+console.log(`Result: ${output}`);
+*/
 // 7
+
+function rand(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min + 1) + min);
+}
+
+const d1 = rand(0, 25);
+const d2 = rand(0, 25);
+const d3 = rand(0, 25);
+
+const average = ((d1 + d2 + d3) / 3).toFixed(2);
+
+console.log(`Const 1: ${d1}`);
+console.log(`Const 2: ${d2}`);
+console.log(`Const 3: ${d3}`);
+console.log(`Average: ${average}`);
 
 // 8
 
+const e3 = 
+const e4 = 
 
 /*
 function rand(min, max) {
