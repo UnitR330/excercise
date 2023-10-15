@@ -1,5 +1,25 @@
 // 1
 
+// Prompt the user for input
+const firstName = prompt('Enter your first name:');
+const lastName = prompt('Enter your last name:');
+const birthYear = prompt('Enter your year of birth:');
+const currentYear = prompt('Enter the current year (not necessarily real):');
+
+// Convert input strings to numbers
+const birthYearNum = parseInt(birthYear);
+const currentYearNum = parseInt(currentYear);
+
+// Check if the conversion was successful
+if (isNaN(birthYearNum) || isNaN(currentYearNum)) {
+    console.log('Invalid input. Please enter valid numbers for birth year and current year.');
+} else {
+    // Calculate age
+    const age = currentYearNum - birthYearNum;
+
+    // Display the result in the console
+    console.log(`I am ${firstName} ${lastName}. I am ${age} year(s).`);
+}
 
 
 /*
