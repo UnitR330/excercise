@@ -1,5 +1,39 @@
 // 1
 
+const name = "Viktor";
+const surname = "Pauzha";
+const Birth = 1980;
+const Present = 2023;
+
+console.log(`My ${name}, my ${surname}. Ma age:${Present - Birth}`);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
 const x = "Kim";
 const y = "Basinger";
 
@@ -10,7 +44,7 @@ if (x.length < y.length) {
 } else {
     console.log(`${x} has the same length with ${y}`)
 }
-
+/* 
 // 1*
 
 function namecompare(actor1, actor2) {
@@ -22,7 +56,7 @@ function namecompare(actor1, actor2) {
     } else if ( x > y) {
         return `${actor2}`;
     } else {
-        return `${actor1} and ${actor2} has the same length`
+        return `${actor1} and ${actor2} has the same length`;
     }
 }
 const result = namecompare("Kim Basinger", "Mickey Rourke");
@@ -69,7 +103,7 @@ function replaceLetters(string) {
   console.log(modifiedString);
 
 // 5 
-/*
+
  function rand(min, max) {
     min = Math.ceil(min);
     max = Math.floor(max);
@@ -181,7 +215,7 @@ const output = c1 > c2 ? (c1 / c2).toFixed(2) : (c2 / c1).toFixed(2);
 console.log(`Const 1: ${c1}`);
 console.log(`Const 2: ${c2}`);
 console.log(`Result: ${output}`);
-*/
+
 // 7
 
 function rand(min, max) {
@@ -228,7 +262,7 @@ console.log(String.fromCharCode(j1, j2, j3));
 
 
 
-/*
+
 function rand(min, max) {
     min = Math.ceil(min);
     max = Math.floor(max);
