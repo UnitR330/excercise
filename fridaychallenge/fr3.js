@@ -1,35 +1,5 @@
 // 1
 
-const name = "Viktor";
-const surname = "Pauzha";
-const Birth = 1980;
-const Present = 2023;
-
-console.log(`My ${name}, my ${surname}. Ma age:${Present - Birth}`);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*
