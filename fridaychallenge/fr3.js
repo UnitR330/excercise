@@ -1,4 +1,12 @@
-// 1
+/*
+
+
+function rand(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min + 1) + min);
+
+
 
 // Prompt the user for input
 const firstName = prompt('Enter your first name:');
@@ -22,7 +30,9 @@ if (isNaN(birthYearNum) || isNaN(currentYearNum)) {
 }
 
 
-/*
+
+
+// 1
 
 const x = "Kim";
 const y = "Basinger";
@@ -34,7 +44,7 @@ if (x.length < y.length) {
 } else {
     console.log(`${x} has the same length with ${y}`)
 }
-/* 
+/*
 // 1*
 
 function namecompare(actor1, actor2) {
@@ -51,7 +61,7 @@ function namecompare(actor1, actor2) {
 }
 const result = namecompare("Kim Basinger", "Mickey Rourke");
 console.log(result);
-
+/*
 // 2
 
 const myName = "Viktor";
@@ -73,7 +83,7 @@ const pasaka = "“Once upon a time in Hollywood”";
 const reality = pasaka.split(/[Oo]/).join("*");
 
 console.log(reality);
-
+/*
 // 4*
 
 function replaceLetters(string) {
@@ -91,7 +101,7 @@ function replaceLetters(string) {
   const originalString = "Once upon a time in Hollywood";
   const modifiedString = replaceLetters(originalString);
   console.log(modifiedString);
-
+/*
 // 5 
 
  function rand(min, max) {
@@ -111,7 +121,7 @@ console.log(`f 1: ${f1}`);
 console.log(`f 2: ${f2}`);
 console.log(`f 3: ${f3}`);
 console.log(`f 4: ${f4}`);
-
+/*
 // 5*
 
 function rand(min, max) {
@@ -144,7 +154,7 @@ console.log(`Count of 0: ${count0}`);
 console.log(`Count of 1: ${count1}`);
 console.log(`Count of 2: ${count2}`);
 
-
+/*
 
 function rand(min, max) {
     min = Math.ceil(min);
@@ -187,7 +197,7 @@ console.log(`Count of Zeros: ${countZero}`);
 console.log(`Count of Ones: ${countOne}`);
 console.log(`Count of Twos: ${countTwo}`);
 
-
+*/
 // 6
 
 
@@ -250,11 +260,3 @@ console.log(String.fromCharCode(j1, j2, j3));
 
 // console.log(randomString)
 
-
-
-
-function rand(min, max) {
-    min = Math.ceil(min);
-    max = Math.floor(max);
-    return Math.floor(Math.random() * (max - min + 1) + min);
-    */
