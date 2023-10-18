@@ -1,4 +1,94 @@
 console.clear();
+ 
+ /*
+function hexColor(rgb) {
+  if (!rgb || rgb.trim() === '000 000 000') {
+    return 'black';
+  } else if (rgb === '0 0 0') {
+    return 'black';
+  }
+  const [red, green, blue] = rgb.split(' ').map(Number);
+  if (red > green && red > blue) {
+    return 'red';
+  } else if (green > red && green > blue) {
+    return 'green';
+  } else if (blue > red && blue > green) {
+    return 'blue';
+  } else if (red === green && red > blue) {
+    return 'yellow';
+  } else if (red === blue && red > green) {
+    return 'magenta';
+  } else if (green === blue && green > red) {
+    return 'cyan';
+  } else {
+    return 'white';
+  }
+}
+*/
+
+function hexColor(codes){
+  var [r,g,b]=codes.split(" ").map(Number),max=Math.max(r,g,b)
+  return codes==''?'black':r==g&&g==b?b==0?'black':'white':r==g?g==0?'blue':'yellow':g==b?b==0?'red':'cyan':r==b?b==0?'green':'magenta':r==max?"red":g==max?'green':'blue'
+}
+console.log(hexColor('087 255 054')); // Output: 'green'
+console.log(hexColor('181 181 170')); // Output: 'yellow'
+console.log(hexColor('000 000 000')); // Output: 'black'
+console.log(hexColor('001 001 001')); // Output: 'white'
+
+ 
+ console.log('------------------------------') 
+
+ 
+//                    R   G   B
+console.log(hexColor('000 000 000'));
+console.log(hexColor('000 235 245'));
+console.log(hexColor('027 100 100'));
+console.log(hexColor('021 021 021'));
+console.log(hexColor('255 000 250'));
+console.log(hexColor('000 147 000'));
+console.log(hexColor('212 103 212'));
+console.log(hexColor('101 101 092'));
+
+/*
+
+function greet(name){
+return `Hello, ${name} how are you doing today?`;
+}
+const greeting = greet("Viktor");
+console.log(greeting);
+
+
+
+function oddOrEven(arr) {
+const sum = arr.reduce((acc, num) => acc + num, 0);
+return sum % 2 === 0 ? "even" : "odd";
+}
+console.log(oddOrEven([0]));
+console.log(oddOrEven([0, 1, 4]));
+console.log(oddOrEven([4, 0, 6]));
+console.log(oddOrEven([-4, 0, -5]));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Examples:
+console.log(oddOrEven([0]));        // Output: "even"
+console.log(oddOrEven([0, 1, 4]));   // Output: "odd"
+console.log(oddOrEven([0, -1, -5])); // Output: "even"
+
+
+
+
 /*
 function excludingVatPrice(priceWithVat) {
   if (priceWithVat === null) {
@@ -27,7 +117,7 @@ function excludingVatPrice(price){
   if (price === null) return -1
   return +((price / 1.15).toFixed(2));
 }  
-*/
+
 
 const excludingVatPrice = price => price !== null ? (price / 1.15).toFixed(2) * 100 / 100 : -1;
 
@@ -185,4 +275,3 @@ while (count <= 6) {
 }
 console.log(total);
 */
-
